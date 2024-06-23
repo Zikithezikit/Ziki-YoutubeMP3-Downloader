@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ziki's YoutubeMP3</title>
+    <script src="../IndexJS.js"></script>
+  </head>
+  <body>
+    <div class="Wrapper">
+      <div class="Input">
+        <input
+          type="text"
+          id="input-url"
+          class="Input-text"
+          placeholder="הכנס כתובת"
+        />
+      </div>
+    </div>
+    <div class="div_btn_Download-MP3">
+      <button class="btn_Download-MP3" role="button" onclick="DownloadMP3()">
+        הורד עכשיו
+      </button>
+    </div>
+    <iframe
+      id="videoObject"
+      type="text/html"
+      width="500"
+      height="265"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </body>
+  <link rel="stylesheet" href="./MainStyle.css" />
+</html>
