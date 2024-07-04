@@ -22,7 +22,10 @@ Download dependencies
 ```sh
 npm install
 ```
-Do this ------- or just cd back a folder and run the .bat file  Do it  👴 ⚡ 
+Do this ------- or just cd back a folder and run the .bat file 
+
+>  Do it  👴 ⚡ 
+
 ```sh
 cd ./WebSite
 ```
